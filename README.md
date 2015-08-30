@@ -1,4 +1,4 @@
-# LocalView #
+# LocalView (Objective-C) #
 
 This is a simple universal iOS app written in Objective-C that pulls images from the Flickr API based on the user's current location.
 
