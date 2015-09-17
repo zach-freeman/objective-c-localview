@@ -11,7 +11,7 @@
 @implementation SWNetworkStatus
 
 -(void) main {
-  NSURL *reachableUrl = [NSURL URLWithString:@"http://www.google.com"];
+  NSURL *reachableUrl = [NSURL URLWithString:@"https://www.google.com"];
   NSMutableURLRequest *reachableRequest = [[NSMutableURLRequest alloc] initWithURL:reachableUrl];
   reachableRequest.HTTPMethod = @"HEAD";
   reachableRequest.cachePolicy = NSURLRequestReloadIgnoringLocalAndRemoteCacheData;
