@@ -7,4 +7,3 @@
 //
 
 #define kFlickrApiKey    @"yourApiKey"
-#define kFlickrSecret @"yourSecret"
